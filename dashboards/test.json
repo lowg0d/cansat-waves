@@ -1,0 +1,85 @@
+{
+  "max_cols": 2,
+  "pen_widht": 1,
+  "data_points": 100,
+  "gps_data_points": 200,
+  "states": {
+    "0": ["EXAMPLE", "16a085"]
+  },
+  "labels": {
+    "big": [
+      {
+        "name": "EXA",
+        "unit": "m",
+        "value_index_in_chain": 1
+      },
+      {
+        "name": "EXA",
+        "value_index_in_chain": 2,
+        "unit": "m/s"
+      }
+    ],
+    "main": [
+      {
+        "name": "EXA",
+        "value_index_in_chain": 4,
+        "unit": "format_seconds"
+      },
+      {
+        "name": "TLMR",
+        "value_index_in_chain": "",
+        "unit": "tlm_rate"
+      }
+    ],
+    "second": [
+      {
+        "name": "EXA",
+        "value_index_in_chain": 5,
+        "unit": "\u00ba"
+      },
+      {
+        "name": "EXA",
+        "value_index_in_chain": 8,
+        "unit": "\u00ba/s"
+      }
+    ]
+  },
+  "buttons": [
+    {
+      "name": "BUTTON 1",
+      "payload": 0,
+      "color": "16a085"
+    },
+    {
+      "name": "BUTTON 2",
+      "payload": 33,
+      "color": "27ae60"
+    },
+    {
+      "name": "BUTTON 3",
+      "payload": "example",
+      "color": "b33939"
+    },
+    {
+      "name": "BUTTON 4",
+      "payload": "23",
+      "color": "9d4edd"
+    }
+  ],
+  "graphs": [
+    {
+      "title": "One Axes",
+      "unit": "m",
+      "axes": 1,
+      "color_1": "AE2012",
+      "value_index_in_chain_1": 0,
+      "row": 0,
+      "col": 0
+    }
+  ],
+  "FILTER_CRITERIA": {
+    "0": [0.0, 0.0],
+    "1": [-10.0, 10.0],
+    "2": [20.0, 50.0]
+  }
+}

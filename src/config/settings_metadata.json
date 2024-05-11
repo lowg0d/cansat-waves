@@ -1,0 +1,83 @@
+{
+  "settings": {
+    "app": {
+      "theme": {
+        "name": "Theme",
+        "description": "Application theme. more information [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+        "custom_type": "ThemeChanger",
+        "default_value": "dark.qss"
+      }
+    },
+    "visualization": {
+      "write_as_list": {
+        "name": "Write Terminal As A List",
+        "description": "Write the values as list or plain text.",
+        "default_value": false,
+        "restart": true
+      },
+      "dashboard": {
+        "name": "Visualization Dashboard",
+        "description": "Change the current visualization dashboard.",
+        "default_value": []
+      }
+    },
+    "packet": {
+      "packet_signature_header": {
+        "name": "Packet Signature Header",
+        "description": "Header to identify valid data packets. Leave empty to disable.",
+        "default_value": "#TECNO_TLM:",
+        "restart": true
+      },
+      "message_signature_header": {
+        "name": "Message Signature Header",
+        "description": "Header to identify message packets. Leave empty to disable",
+        "default_value": "#TECNO_MSG:",
+        "restart": true
+      },
+      "split_char": {
+        "name": "Packet Split Character",
+        "description": "Character used to separate values. Example: '123;321'.",
+        "default_value": ";",
+        "restart": true
+      },
+      "state_value_index": {
+        "name": "State Value Index",
+        "description": "Position of the state value within the data packet.",
+        "default_value": 0,
+        "restart": true
+      },
+      "count_value_index": {
+        "name": "Time Value Index",
+        "description": "Position of the value used as time within the data packet.",
+        "default_value": 1,
+        "restart": true
+      }
+    },
+    "data": {
+      "update_interval": {
+        "name": "Update Interval (ms)",
+        "description": "Frequency at which the graph and label updates occur.",
+        "default_value": 200,
+        "updateSignal": true
+      },
+      "data_stale_detect_time": {
+        "name": "Data Stale Detection Time (sec)",
+        "description": "Time without receiving new data before activating data stale mode indicator.",
+        "default_value": 4,
+        "restart": true
+      },
+      "data_filter": {
+        "name": "Data Filtration",
+        "description": "Toggle the data filtration.",
+        "default_value": false
+      },
+      "record_path": {
+        "name": "Recording Save Folder",
+        "description": "Folder where recordings are saved.",
+        "custom_type": "FolderSelect",
+        "default_value": "./record",
+        "restart": true
+      }
+    }
+  }
+}

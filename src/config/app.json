@@ -1,0 +1,40 @@
+{
+    "name": "waves",
+    "version": "0.1.0",
+    "author": "You",
+    "description": "Description of your application",
+    "url": "https://github.com/you/project-name",
+    "update_search_url": "https://yourapiurl.com/api/v1/version",
+    "env": {
+        "debug": true,
+        "save_logs": true,
+        "suppress_logs": [],
+        "enable_crash_logs": false
+    },
+    "build": {
+        "is_built": false,
+        "build_id": 0,
+        "build_path": "./build",
+        "main_script": "./launcher.py",
+        "include_files": [
+            "./src"
+        ],
+        "include_packages": [
+            "kore"
+        ],
+        "exclude_packages": [],
+        "include_msvcr": true
+    },
+    "paths": {
+        "icon_path": "./src/ui/assets/app.ico",
+        "config_path": "./src/config",
+        "ui_path": "./src/ui",
+        "plugins_path": "./plugins"
+    },
+    "features": {
+        "system_tray": false
+    },
+    "supported_platforms": [
+        "windows"
+    ]
+}

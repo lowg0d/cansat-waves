@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RCC>
+	<qresource prefix="icons">
+		<file>icons/settings-dark.svg</file>
+		<file>icons/refresh-dark.svg</file>
+		<file>icons/arrow-left-dark.svg</file>
+		<file>icons/file-dark.svg</file>
+		<file>icons/chevron-down-dark.svg</file>
+	<file>icons/bell-dark.svg</file><file>icons/chevron-left-dark.svg</file><file>icons/bell-off-dark.svg</file><file>icons/radio-dark.svg</file><file>icons/unlock-dark.svg</file><file>icons/lock-dark.svg</file><file>icons/chevron-right-dark.svg</file><file>icons/square-dark.svg</file><file>icons/archive-dark.svg</file><file>icons/play-dark.svg</file><file>icons/bin-dark.svg</file><file>icons/pause-dark.svg</file></qresource>
+</RCC>

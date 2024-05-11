@@ -1,0 +1,49 @@
+{
+  "dashboard_folder": "./dashboards",
+  "cloud_backup": false,
+  "terminal": {
+    "auto_scroll": true,
+    "max_lines": 200,
+    "terminal_clear_interval": 30000
+  },
+  "conn": {
+    "bauds": {
+      "9600": 9600,
+      "115200": 115200
+    },
+    "auto_reconnect": true,
+    "last_selected_bauds": "115200",
+    "last_selected_port": "COM4",
+    "port_detection_interval": 200
+  },
+  "notifications": {
+    "do_not_disturb": false,
+    "durations": {
+      "S": 1200,
+      "M": 2200,
+      "L": 3200
+    },
+    "levels": {
+      "I": {
+        "bg": "627254",
+        "text": "EDEDEC",
+        "priority": 3
+      },
+      "W": {
+        "bg": "D08770",
+        "text": "EDEDEC",
+        "priority": 2
+      },
+      "E": {
+        "bg": "BF616A",
+        "text": "EDEDEC",
+        "priority": 0
+      },
+      "M": {
+        "bg": "2c3e50",
+        "text": "EDEDEC",
+        "priority": 1
+      }
+    }
+  }
+}

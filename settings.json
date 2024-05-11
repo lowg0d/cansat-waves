@@ -1,0 +1,18 @@
+{
+  "settings": {
+    "theme": "dark",
+    "write_as_list": false,
+    "dashboard": [
+      "test.json"
+    ],
+    "packet_signature_header": "#TLM:",
+    "message_signature_header": "#MSG:",
+    "split_char": ";",
+    "state_value_index": 0,
+    "count_value_index": 1,
+    "update_interval": 200,
+    "data_stale_detect_time": 4,
+    "data_filter": false,
+    "record_path": "./record"
+  }
+}
